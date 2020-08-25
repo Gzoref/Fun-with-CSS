@@ -1,14 +1,16 @@
 ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
-  padding: 5rem ;
+  padding: 5rem;
+  
 }
 
 li {
   display: flex;
-  padding: 30px;
+  padding: 1rem;
+  margin: 1rem;
   justify-content: center;
   list-style-type: none;
   flex-wrap: wrap;
@@ -22,6 +24,7 @@ li {
 
 .icon {
   border-radius: 15px;
+
 }
 
 li span {
